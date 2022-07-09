@@ -1,0 +1,330 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.instagram-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 60%;
+  height: 100vh;
+}
+
+.instagram-phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.instagram-phone img {
+  height: 50rem;
+}
+
+.instagram-continue {
+  display: flex;
+  align-items: center;
+  /* horizontal */
+  justify-content: space-around;
+  /* vertical */
+  flex-direction: column;
+  width: 50%;
+  min-height: 34rem;
+}
+
+.group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 1.3rem 0;
+  border: 1px solid lightgray;
+}
+
+.group:nth-child(1) {
+  min-height: 19rem;
+}
+
+.instagram-logo {
+  height: 3rem;
+}
+
+.profile-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-photo img {
+  height: 6rem;
+}
+
+.continue-as {
+  background-color: #0095f6;
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.instagram-logout {
+  color: #0095f6;
+  margin-top: 1rem;
+}
+
+.not-account {
+  color: rgb(160, 160, 160);
+}
+
+.link-blue {
+  color: #0095f6;
+}
+
+.get-the-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1.3rem 0;
+}
+
+.download {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+
+.app-download {
+  height: 3rem;
+  width: 10rem;
+  background-size: cover;
+}
+
+.app-download:nth-child(1) {
+  background-image: url('./img/apple-button.png');
+}
+
+.app-download:nth-child(2) {
+  background-image: url('./img/googleplay-button.png');
+}
+
+/* media queries */
+
+
+@media (max-width: 1024px) {
+  .instagram-wrapper {
+    width: 90%;
+  }
+}
+
+@media (max-width: 650px) {
+  body {
+    background-color: #ffffff;
+  }
+
+  .instagram-wrapper {
+    width: 100%;
+  }
+
+  .instagram-phone {
+    display: none;
+  }
+
+  .instagram-continue {
+    width: 100%;
+  }
+
+  .register-page {
+    width: 100%;
+
+  }
+
+  .group {
+    border: 1px solid transparent;
+  }
+
+}
+
+/** register page **/
+.register-page {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  max-width: 350px;
+  height: 100vh;
+  margin-top: 100px;
+}
+
+.group1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 100%;
+  border: 1px solid lightgray;
+  padding: 40px;
+}
+
+.group1 img {
+  height: 3.5rem;
+}
+
+.subtitle {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: rgb(160, 160, 160);
+  margin-top: 10px;
+}
+
+.facebook-login {
+  background-color: #0095f6;
+  color: #ffffff;
+  padding: 7px;
+  border-radius: 4px;
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.facebook-login img {
+  margin: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.data {
+  margin: 2.5px 0;
+  padding: 10px;
+  border-radius: 2px;
+  background-color: #fafafa;
+  color: rgb(160, 160, 160);
+  border: 1px solid lightgray;
+  font-size: 12px;
+}
+
+.data:focus-visible {
+  outline: none;
+}
+
+.terms {
+  font-size: 12px;
+  color: rgb(160, 160, 160);
+  justify-content: center;
+  text-align: center;
+  line-height: 16px;
+  margin: 20px 0px;
+}
+
+.terms strong {
+  font-size: 11px;
+}
+
+.register {
+  background-color: #0095f6;
+  color: #ffffff;
+  padding: 5px;
+  border: 0;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.group2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 100%;
+  border: 1px solid lightgray;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.get-the-app2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1.3rem 0;
+}
+
+/**  conect  **/
+.connect-page {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  max-width: 350px;
+  height: 100vh;
+  margin-top: 70px;
+}
+
+.group-login {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 100%;
+  border: 1px solid lightgray;
+  padding: 40px;
+}
+
+.group-login img {
+  height: 3.5rem;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 24px 0;
+}
+
+.instagram-login {
+  background-color: #0095f6;
+  color: #ffffff;
+  padding: 5px;
+  border: 0;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.connect-facebook {
+  font-size: 14px;
+  text-align: center;
+  color: #385185;
+  cursor: pointer;
+}
+
+.forget-password {
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 12px;
+  text-align: center;
+  color: #00376b;
+}
