@@ -4,9 +4,8 @@
 
 O objetivo foi replicar uma das páginas do Instagram, onde é possível continuar com seu login.
 
-Como aprimoramento da página, foram criadas as páginas de cadastro e uma página de login padrão.
+Como aprimoramento do projeto, foram criadas outras duas páginas.
+- Ao clicar em "Inscreva-se" na página inicial do projeto, é possível acessar a página de cadastro.
+- Ao clicar em "Conecte-se", será redirecionado a uma nova página de login.
+- Ao clicar "Cadastre-se", é possível retornar a página de cadastro.
 
-__________________________
-<p>Project developed during the Flexbox class, available at Bootcamp JavaScript Evolution by DIO.
-
-The objective was to create a simple website, which used the Flexbox concepts studied in class.
