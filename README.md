@@ -2,7 +2,7 @@
 
 <p>Página do Instagram desenvolvida como Desafio de Projeto para o Bootcamp da DIO.</p>
 
-O objetivo foi replicar uma das páginas do Instagram, onde é possível continuar com seu login.
+O objetivo foi replicar a página inicial do Instagram.
 
 Como aprimoramento do projeto, foram criadas outras duas páginas.
 - Ao clicar em "Inscreva-se" na página inicial do projeto, é possível acessar a página de cadastro.
@@ -13,7 +13,7 @@ Como aprimoramento do projeto, foram criadas outras duas páginas.
 
 <p>Instagram page developed as Challenge for DIO's Bootcamp.</p>
 
-The goal was to replicate one of the Instagram pages, where you can continue with your login.
+The goal was to replicate the home page of Instagram.
 
 As a project improvement, two other pages were created.
 - By clicking on "Inscreva-se" on the project's homepage, it is possible to access the registration page.
